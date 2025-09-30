@@ -1,4 +1,4 @@
-const { BinaryTree, Node } = require('../MorrisTraversal')
+import { BinaryTree, Node } from '../Trees/MorrisTraversal.js'
 
 describe('Morris Inorder Tree Traversal', () => {
   const binaryTree = new BinaryTree()

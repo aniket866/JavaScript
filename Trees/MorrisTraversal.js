@@ -1,4 +1,4 @@
-class Node {
+export class Node {
   constructor(data) {
     this.data = data
     this.left = null
@@ -6,7 +6,7 @@ class Node {
   }
 }
 
-class BinaryTree {
+export class BinaryTree {
   constructor() {
     this.root = null
   }
@@ -39,5 +39,3 @@ class BinaryTree {
     return traversal
   }
 }
-
-module.exports = { BinaryTree, Node }
